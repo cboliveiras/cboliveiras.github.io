@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+
+#logo {
+ /* grid-row-start: 0; 
+  grid-column-start: 0;*/ 
+  max-height: 150px;
+  border-radius: 300px;
+  box-shadow: 0px 10px 30px #81366238;
+  margin: 20px;
+}
+
+.social-media {
+  font-family: Font Awesome\ 5 Brands;
+  color: #c291b9;
+  font-size: xx-large;
+  position: relative;
+  width: fit-content;
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    top: 50px;
+  }
+
+h2 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #c291b9; 
+  text-align: center;
+  margin-block-start: 0;
+}
+
+ h4 {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #c291b9; 
+  text-align: center;
+  margin-block-start: 1;
+  margin-block-end: 0;
+ }
+ 
+ p {  
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: white; 
+  text-align: center;
+  margin-block-start: 0;
+ }   
+
+
+/* visited link */
+a:link {
+  color: #c291b9;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  color: hotpink;
+}
+
+a:visited {
+  color: #9c3d7481;
+}
+
+.text-center {
+  place-items: center;
+  text-align: center;
+  
+}
+.card-black {
+  box-shadow: 0px 10px 30px #b66f9838;
+  border-radius: 4px;
+  text-align: center;
+  height: 450;
+  width: 600;
+  margin: auto
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
