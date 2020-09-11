@@ -106,3 +106,18 @@ a:visited {
   margin: auto
 }
 
+@media screen and (max-width: 360px) {
+  .navbar-minimal {
+    max-width: 90%;
+    box-sizing: content-box;
+  }
+
+  .dashboard-main {
+    width: 150px;
+    height: 150px;
+  }
+
+  .social-media {
+    font-size: 1.6rem;
+  }
+}
