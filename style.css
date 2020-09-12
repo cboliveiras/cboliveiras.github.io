@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
-
-.navbar-minimal {
-  height: 40px;
-  background: black;
-  border-radius: 4px;
-  box-shadow: 0px 5px 15px #81366238;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 20px;
-}
+@import url("components/avatar.css");
+@import url("components/navbar.css");
 
 .container {
   padding-right: 15px;
@@ -17,15 +8,6 @@
   margin-right: auto;
   margin-left: auto;
   margin: 0 auto;
-}
-
-#logo {
- /* grid-row-start: 0; 
-  grierrtytrr-column-start: ddrfgytf0;*/ 
-  max-height: 150px;
-  border-radius: 300px;
-  box-shadow: 0px -2px 10px #81366238;
-  margin: 20px;
 }
 
 .social-media {
@@ -42,7 +24,7 @@
 
 h2 {
   font-family: 'Jost', sans-serif;
-  font-weight: 600;
+  font-weight: 450;
   font-size: 30px;
   color: #c291b9; 
   text-align: center;
@@ -77,20 +59,17 @@ a:link {
   display: inline-block;
 }
 
-a:hover, a:active {
+a:hover {
   color: hotpink;
+}
+
+a:active {
+  text-decoration: underline ;
 }
 
 a:visited {
   color: #9c3d7481;
 }
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 
 .text-center {
   place-items: center;
