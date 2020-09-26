@@ -31,7 +31,7 @@ h2 {
   margin-block-start: 0;
 }
 
- h4 {
+ h3 {
   font-family: 'Jost', sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -110,19 +110,19 @@ span:before {
 @keyframes animate {
   0%
   {
-  content: '. . .';
+  content: 'engineer';
   }
   25%
   {
-  content: 'engineer';
+  content: 'process analyst';
   }
   50%
   {
-  content: 'process analyst';
+  content: 'web developer';
   }
   75%
   {
-  content: 'web developer';
+  content: 'bath singer';
   }
   100%
   {
