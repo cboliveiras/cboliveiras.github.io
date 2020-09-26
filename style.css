@@ -104,7 +104,7 @@ a:visited {
 
 span:before {
   content: '. . .';
-  animation: animate infinite 8s;
+  animation: animate infinite 5s;
 }
 
 @keyframes animate {
