@@ -110,22 +110,22 @@ span:before {
 @keyframes animate {
   0%
   {
-  content: 'engineer';
+  content: '. . .';
   }
   25%
   {
-  content: 'process analyst';
+  content: 'an engineer';
   }
   50%
   {
-  content: 'web developer';
+  content: 'a project analyst';
   }
   75%
   {
-  content: 'bath singer';
+  content: 'a web developer';
   }
   100%
   {
-  content: 'dancer';
+  content: 'the best bath singer you will ever know';
   }
 }
