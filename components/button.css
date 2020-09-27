@@ -1,0 +1,25 @@
+.button{
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin-bottom: auto;
+}
+
+  .button:hover {
+    text-decoration: none;
+    border: 2px solid #c291b9;
+    color: hotpink;
+    transition: .5s ease-in-out;
+    transition-property: inherit;
+  }
+
+  .button:active {
+    border: 2px solid #c291b9;
+    text-decoration: underline ;
+  }
+  .button:visited, .button:hover {    
+    border: 2px solid #9c3d7481;
+    color: #9c3d7481;
+  }
