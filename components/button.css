@@ -17,7 +17,6 @@
 
   .button:active {
     border: 2px solid #c291b9;
-    text-decoration: underline ;
   }
   .button:visited, .button:hover {    
     border: 2px solid #9c3d7481;
