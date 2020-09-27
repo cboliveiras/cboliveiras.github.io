@@ -88,17 +88,17 @@ a:visited, a:hover {
   margin: 0 auto
 }
 
-@media (max-width: 500px) {
-  .navbar-minimal {
-    max-width: 100%;
+@media screen and (max-width: 360px) {
+  .container{
+    max-width: 90%;
     box-sizing: content-box;
   }
-
-  .container{
-    display: grid;
-    place-items: center;
-    height: 100vh;
-    width: 100%;  
+  .dashboard-main {
+    width: 150px;
+    height: 150px;
+  }
+  .social-media {
+    font-size: 1.6rem;
   }
 }
 
