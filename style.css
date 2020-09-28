@@ -20,7 +20,9 @@
   display: flex;
   gap: 40px;
   margin: 5px auto 30px;
-  width: fit-content;
+  width: -webkit-fit-content; /* Chrome */
+  width: -webkit-intrinsic; /* Safari */
+  width: -moz-available;
 }
 
 h2 {
