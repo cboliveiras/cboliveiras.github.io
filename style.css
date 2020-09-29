@@ -13,65 +13,51 @@
 
 .social-media {
   font-family: Font Awesome\ 5 Brands;
-  color: #c291b9;
-  font-size: xx-large;
+  font-size: large;
   position: relative;
   height: auto;  
   display: flex;
   gap: 40px;
-  margin: 5px auto 30px;
+  margin: 20px auto 30px;
   justify-content: center;
-}
-
-h2 {
-  font-family: 'Jost', sans-serif;
-  font-weight: 450;
-  font-size: 30px;
-  color: #c291b9; 
-  text-align: center;
-  margin-block-start: 0;
 }
 
  h3 {
   font-family: 'Jost', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  color: #c291b9; 
+  color: #868686; 
   text-align: center;
   margin: auto;
  }
  
- p {  
+ h2 {  
   font-family: 'Jost', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  color: white; 
+  color: black; 
   text-align: center;
   margin-block-start: 0;
-  margin-block-end: 1.5em;
+  margin-block-end: 1em;
  }
 
-.changing-word {
+/*.changing-word {
   font-family: 'Nothing You Could Do', cursive;
   font-size: 30px;
   font-weight: 300;
   text-shadow: 2px 2px 6px #dda5c6be;
-}
+}*/
 
-a:link {
-  color: #c291b9;
+a:link, a:visited {
+  color: #000000;
   text-align: center;
   text-decoration: none;
   display: inline-block;
 }
 a:hover {
-  color: hotpink;
+  color: gray;
   transition: .5s ease-in-out;
   transition-property: inherit;
-}
-
-a:visited, a:hover {
-  color: #9c3d7481;
 }
 
 .text-center {
@@ -80,8 +66,8 @@ a:visited, a:hover {
 }
 
 .dashboard-main {
-  box-shadow: 0px -2px 10px #c291b9;
-  border-radius: 4px;
+  box-shadow: 0px 0px 10px 1px #4444447e;
+  border-radius: 5px;
   text-align: center;
   height: 500;
   width: 600;
@@ -96,31 +82,4 @@ a:visited, a:hover {
 .social-media {
   font-size: 1.6rem;
 }
-}
-
-span:before {
-  content: '. . .';
-  animation: animate infinite 5s;
-}
-@keyframes animate {
-  0%
-  {
-  content: '. . .';
-  }
-  20%
-  {
-  content: 'an engineer';
-  }
-  45%
-  {
-  content: 'a project analyst';
-  }
-  60%
-  {
-  content: 'a web developer';
-  }
-  100%
-  {
-  content: 'the best bath singer you will ever know';
-  }
 }
