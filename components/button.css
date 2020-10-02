@@ -12,8 +12,8 @@
 
   .button:hover {
     text-decoration: none;
-    color: #868686;
-    border: 2px solid #868686;
+    color: hotpink;
+    border: 2px solid hotpink;
     transition: .5s ease-in-out;
     transition-property: inherit;
   }

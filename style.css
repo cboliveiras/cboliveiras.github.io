@@ -13,11 +13,11 @@
 
 .social-media {
   font-family: Font Awesome\ 5 Brands;
-  font-size: large;
+  font-size: x-large;
   position: relative;
   height: auto;  
   display: flex;
-  margin: 20px auto 30px;
+  margin: 10px auto 0;
   justify-content: space-around;
   width: 250px;
 }
@@ -55,7 +55,7 @@ a:link, a:visited {
   display: inline-block;
 }
 a:hover {
-  color: gray;
+  color: hotpink;
   transition: .5s ease-in-out;
   transition-property: inherit;
 }
